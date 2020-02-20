@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 70%;
+	margin: auto;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +66,191 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header{
+	margin-bottom: 20px;
+	padding: 20px;
+}
+header nav{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width:100%;
+	display: flex;
+	/* background: gray; */
+  }
+nav a{
+	text-decoration: none;
+	color: gray;
+	padding: 0 4px;
+	/* justify-content: space-evenly; */
+}
+nav .link-container{
+	display: flex;
+	justify-content: space-evenly; 
+	width: 80%;
+}
+nav .nav-image{
+	width: 20%;
+}
+header #starter{
+	width: 100%;
+	display: flex;
+}
+header .ino-btn{
+	width: 60%;
+	text-align: center;
+	margin-top: 150px;
+}
+header .img{
+	width: 40%;
+}
+h1 {
+	font-size: 40px;
+}
+
+.first-sec{
+	width: 100%;
+	display: flex;
+}
+section .features{
+	width: 50%;
+	padding: 10px;
+	margin: 10px;
+}
+section .about{
+	width: 50%;
+	
+}
+.middle-img{
+	width: 100%;
+	padding: 15px;
+
+}
+.second-sec{
+	width: 100%;
+	display: flex;
+}
+.second-sec .vision .service .product{
+	width: 33.3%;
+}
+
+.third-sec{
+	margin: 30px;
+	width: 150px;
+}
+footer{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+
+/* .link-container{
+	display: flex;
+	justify-content: space-evenly;
+} */
+/* nav {
+display: inline;
+align-content: center;
+height: 100px;
+background: rgb(206, 203, 203);
+align-content: center;
+margin: 30px;
+display: inline-block;
+}
+#starter{
+	
+	border:solid;
+	height: 30%;
+	
+	
+	
+}
+h1{
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+	
+
+}
+ul{
+	list-style-type: none;
+	width:60%;
+	text-align: center;
+	margin-top: 20px;
+
+	
+
+
+}
+.logo{
+	width:200px;
+	float:right;
+	height: 30px;
+}
+
+li {
+	margin: 50px;
+	padding: 20px;
+	text-align: center;
+	display: inline;
+	text-decoration: none;
+	
+}
+#img{
+	width: 30%;
+	height: 70%;
+	float: right;
+	border:solid;
+    width: 300px;
+	height: 100px;
+	border:solid;
+	margin: 20px;
+}	
+
+h1{
+	width: 300px;
+	height: 100px;
+	border:solid;
+	margin: 20px;
+
+	
+}
+
+
+.first-sec{
+	display: flex;
+
+
+}
+.middle-img{
+	border:solid pink;
+	height: 5%;
+
+}
+.second-sec{
+	display: flex;
+	margin: 50px;
+	
+	
+}
+h3, h4, h5{
+	text-align: center;
+	display: flex;
+	border: solid pink;
+	text-align:justify;
+   
+}
+h3 .
+
+.third-sec{
+	border: solid;
+	margin: 30px;
+	width: 150px;
+}
+
+footer{
+
+} */
